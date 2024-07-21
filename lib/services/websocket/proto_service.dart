@@ -1,7 +1,7 @@
 // proto_handler.dart
 import 'package:protobuf/protobuf.dart';
 import 'dart:typed_data';
-import '../gen/proto_list_generator.dart';
+import '../../gen/proto_list_generator.dart';
 
 typedef ProtoParser = GeneratedMessage Function(Uint8List bytes);
 

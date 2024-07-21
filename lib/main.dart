@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_shopping/theme/app_theme.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'gen/app_localizations.dart';
 import 'l10n.dart';
@@ -8,7 +9,7 @@ import 'providers/locale_provider.dart';
 import 'routes/router.dart';
 
 void main() async {
-  await dotenv.load();
+  await dotenv.load(fileName: "assets/.env");
   runApp(
     ProviderScope(
       child: App(),
@@ -27,10 +28,10 @@ class App extends ConsumerWidget {
     Locale? locale = ref.watch(localProvider).locale;
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      title: 'Exchange',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      title: 'Demo',
+      themeMode: ThemeMode.system,
+      theme: AppTheme.lightTheme(context),
+      darkTheme: AppTheme.darkTheme(context),
       routerConfig: _appRouter.config(),
       locale: locale,
       supportedLocales: L10n.all,
