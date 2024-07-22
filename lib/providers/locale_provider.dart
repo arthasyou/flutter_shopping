@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class LocaleProvider extends ChangeNotifier {
+  LocaleProvider._internal();
+  static final LocaleProvider _instance = LocaleProvider._internal();
+  factory LocaleProvider() => _instance;
+
   Locale? _locale;
   Locale? get locale => _locale;
 

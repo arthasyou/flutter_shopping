@@ -25,6 +25,10 @@ dependencies:
   protobuf: ^3.1.0
   json_annotation: ^4.9.0
   form_field_validator: ^1.1.0
+  get: ^4.6.6
+  url_launcher: ^6.3.0
+  iconsax: ^0.0.8
+  flutter_native_splash: ^2.4.1
 
 
 dev_dependencies:

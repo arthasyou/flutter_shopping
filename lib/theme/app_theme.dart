@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_shopping/constants/colors.dart';
 
-import '../constants.dart';
+import '../constants/constants.dart';
 import 'button_theme.dart';
 import 'custom_themes/appbar_theme.dart';
 import 'custom_themes/bottom_sheet_theme.dart';
@@ -18,8 +19,8 @@ class AppTheme {
       useMaterial3: true,
       brightness: Brightness.light,
       fontFamily: "Plus Jakarta",
-      primarySwatch: primaryMaterialColor,
-      primaryColor: primaryColor,
+      primarySwatch: ColorConstants.primaryMaterialColor,
+      primaryColor: ColorConstants.primary,
       scaffoldBackgroundColor: Colors.white,
       iconTheme: const IconThemeData(color: blackColor),
       textTheme: CustomTextTheme.lightTextTheme,
@@ -41,8 +42,8 @@ class AppTheme {
       useMaterial3: true,
       brightness: Brightness.light,
       fontFamily: "Plus Jakarta",
-      primarySwatch: primaryMaterialColor,
-      primaryColor: primaryColor,
+      primarySwatch: ColorConstants.primaryMaterialColor,
+      primaryColor: ColorConstants.primary,
       scaffoldBackgroundColor: Colors.white,
       iconTheme: const IconThemeData(color: whiteColor),
       textTheme: CustomTextTheme.darkTextTheme,

@@ -13,52 +13,52 @@ class ProductProvider extends ChangeNotifier {
 
   final List<ProductModel> _products = [
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
     ProductModel(
-      imagePath: 'assets/images/fruit_btn_bet_12.png',
+      imagePath: 'assets/images/flutter_logo.png',
       title: '飞利浦 原装光盘 4.7G DVD-R 16X DVD刻录盘',
       price: '¥18.9',
     ),
